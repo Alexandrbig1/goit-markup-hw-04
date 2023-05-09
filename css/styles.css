@@ -71,7 +71,11 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--secondary-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+  ;
 }
 
 .head .container {
@@ -175,6 +179,7 @@ button {
 /* ----- hero ----- */
 
 .hero {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7))url(../images/hero-img.jpg);
   background-color: var(--title-color);
   max-width: 1440px;
   height: 600px;
@@ -182,6 +187,9 @@ button {
   flex-direction: column;
   align-items: center;
   padding: 188px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-main {
@@ -454,6 +462,7 @@ button {
   background-color: #404BBF;
   color: var(--main-color);
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* ----- app ----- */
@@ -465,6 +474,18 @@ button {
   align-items: center;
   gap: 48px 24px;
   padding-bottom: 120px;
+}
+
+.app-link {
+  display: block;
+}
+
+.app-link:hover,
+.app-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+  ;
 }
 
 .app-title {
