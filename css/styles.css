@@ -252,17 +252,6 @@ button {
   align-items: center;
 }
 
-.icon-about {
-  width: 64px;
-  height: 64px;
-}
-
-.antenna {
-  /* display: flex;
-  width: 64px;
-  height: 64px; */
-}
-
 .about-title {
   font-weight: 500;
   font-size: 20px;
