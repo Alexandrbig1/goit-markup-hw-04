@@ -489,10 +489,6 @@ button {
   max-width: 264px;
 }
 
-/* .footer-menu {
-  display: flex;
-} */
-
 .footer-social-container {}
 
 .footer-social-text {
@@ -506,7 +502,6 @@ button {
 }
 
 .footer-social-menu {
-  width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
