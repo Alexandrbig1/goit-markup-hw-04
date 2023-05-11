@@ -240,7 +240,7 @@ button {
   gap: 24px;
 }
 
-.icon-container {
+.about-icon-container {
   width: 264px;
   height: 112px;
   background-color: #F4F4FD;
@@ -352,7 +352,7 @@ button {
 }
 
 .team-container {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .social-menu {
@@ -378,7 +378,14 @@ button {
   border-radius: 50%;
 }
 
-.social-icons {}
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+
+.social-icons {
+  fill: #f4f4fd;
+}
 
 /* ----- customers ----- */
 
@@ -400,10 +407,30 @@ button {
 
 .customers-menu {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
-.customers-items {}
+.customers-items {
+  width: calc((100% - 120px) / 6);
+}
+
+.customers-icon-container {
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+}
 
 /* ------- FOOTER ------- */
 
