@@ -512,11 +512,14 @@ button {
   gap: 16px;
 }
 
-.footer-social-items {}
-
-.footer-social-link {
+.footer-social-items {
   width: 40px;
   height: 40px;
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
