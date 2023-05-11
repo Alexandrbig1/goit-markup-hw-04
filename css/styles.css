@@ -420,6 +420,10 @@ button {
   margin: 0 auto;
 }
 
+.footer-logo-container {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -451,9 +455,7 @@ button {
   display: flex;
 }
 
-.footer-social-container {
-  margin-left: 120px;
-}
+.footer-social-container {}
 
 .footer-social-text {
   font-style: normal;
