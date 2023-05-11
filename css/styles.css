@@ -437,7 +437,9 @@ button {
   color: #404bbf;
 }
 
-.customers-icon {}
+.customers-icon {
+  fill: currentColor;
+}
 
 /* ------- FOOTER ------- */
 
@@ -510,14 +512,11 @@ button {
   gap: 16px;
 }
 
-.footer-social-items {
-  width: 40px;
-  height: 40px;
-}
+.footer-social-items {}
 
 .footer-social-link {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
