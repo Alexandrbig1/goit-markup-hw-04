@@ -183,9 +183,7 @@ button {
   max-width: 1440px;
   height: 600px;
   padding: 188px 0;
-
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img.jpg);
-
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -349,11 +347,37 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  margin-bottom: 8px;
 }
 
 .team-container {
   padding: 32px 16px;
 }
+
+.social-menu {
+  width: 232px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-items {
+  width: 40px;
+  height: 40px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {}
 
 /* ----- customers ----- */
 
@@ -424,21 +448,46 @@ button {
   display: flex;
 }
 
-.footer-media {}
+.footer-social-container {
+  margin-left: 120px;
+}
 
-.media-text {
+.footer-social-text {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  margin-left: 120px;
+  margin-bottom: 16px;
 }
 
-.media-menu {}
+.footer-social-menu {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
 
-.media-items {}
+.footer-social-items {
+  width: 40px;
+  height: 40px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icons {}
+
+
 
 /* ------- PORTFOLIO ------- */
 
