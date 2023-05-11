@@ -239,7 +239,28 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
 
+.icon-container {
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-about {
+  width: 64px;
+  height: 64px;
+}
+
+.antenna {
+  /* display: flex;
+  width: 64px;
+  height: 64px; */
 }
 
 .about-title {
@@ -248,33 +269,7 @@ button {
   line-height: 1.2;
   color: var(--title-color);
   letter-spacing: 0.02em;
-  margin-top: 8px;
   margin-bottom: 8px;
-}
-
-.about-container::before {
-  content: '';
-  display: block;
-  height: 112px;
-  background-repeat: no-repeat;
-  background-color: #F4F4FD;
-  background-position: center;
-}
-
-.antenna::before {
-  background-image: url(../images/antenna1.svg);
-}
-
-.clock::before {
-  background-image: url(../images/clock1.svg);
-}
-
-.diagram::before {
-  background-image: url(../images/diagram1.svg);
-}
-
-.astronaut::before {
-  background-image: url(../images/astronaut1.svg);
 }
 
 .about-text {
