@@ -462,6 +462,7 @@ button {
 }
 
 .footer-logo {
+  display: flex;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -488,9 +489,9 @@ button {
   max-width: 264px;
 }
 
-.footer-menu {
+/* .footer-menu {
   display: flex;
-}
+} */
 
 .footer-social-container {}
 
