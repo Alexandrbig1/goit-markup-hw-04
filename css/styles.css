@@ -4,6 +4,7 @@
   --accent-color: #4D5AE5;
   --secondary-color: #E7E9FC;
   --main-color: #ffffff;
+  --icon-color: #f4f4fd;
 }
 
 body {
@@ -365,8 +366,6 @@ button {
 .social-items {
   width: 40px;
   height: 40px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
 }
 
 .social-link {
@@ -375,6 +374,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--accent-color);
+  border-radius: 50%;
 }
 
 .social-icons {}
@@ -478,8 +479,6 @@ button {
 .footer-social-items {
   width: 40px;
   height: 40px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
 }
 
 .footer-social-link {
@@ -488,9 +487,18 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--accent-color);
+  border-radius: 50%;
 }
 
-.footer-social-icons {}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-icons {
+  fill: var(--icon-color);
+}
 
 
 
