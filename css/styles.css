@@ -106,7 +106,7 @@ button {
   color: var(--title-color);
 }
 
-.head-list {
+.head-menu {
   display: flex;
   gap: 40px;
 }
@@ -121,7 +121,7 @@ button {
   margin-left: 0;
 }
 
-.head-menu {
+.head-link {
   font-weight: 500;
   color: var(--title-color);
   padding: 24px 0;
@@ -137,7 +137,7 @@ button {
   margin-left: auto;
 }
 
-.head-address-list {
+.head-address-menu {
   display: flex;
   gap: 40px;
 }
